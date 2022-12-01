@@ -1,0 +1,35 @@
+public class Persona{
+
+//atributos
+private String nombre, dni, descripcion;
+private int edad;
+
+//constructor
+public Persona (String nom, int e)
+{
+   nombre = nom;
+   edad = e;
+}   
+//metodos
+public void IntroducirDNI(String d)
+{
+    dni = d;
+} 
+
+public void IntroducirDescripcion (String des)
+{ 
+         descripcion = des;
+}
+
+public void CambiarEdad (int num)
+{
+        edad = num; 
+}
+
+public void MostrarDatos ()
+{
+System.out.println("Nombre: " + nombre);
+System.out.println("DNI: " + dni);
+System.outprintln("Edad: " + edad);
+System.out.println("Descripcion: " + descripcion);
+}
