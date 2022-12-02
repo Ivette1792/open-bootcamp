@@ -1,0 +1,21 @@
+# opeN BOOTCAMP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ejercicio de HTML EN Open Bootcamp</title>
+</head>
+<body>
+    
+    <p>Este es mi primer comentario de dos lineas
+        Aprendiendo a documentar mi codigo con OpenBootcamp
+    </p>
+<div>
+<li><a href="https://www.youtube.com/watch?v=1Q-5OSoxbzI"> video de la dura verdad jaja</a></li>
+<li><a href="https://www.youtube.com/watch?v=Gzs60iBgd3E">BZRP</a></li>
+<li><a href="https://www.youtube.com/watch?v=A_g3lMcWVy0">BZRP2</a></li>
+</div>  
+</body>
+</html>
