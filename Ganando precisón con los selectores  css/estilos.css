@@ -1,0 +1,8 @@
+
+div .li .primerelemento{
+    color: red;
+}
+
+ul li#primerelemento{
+    font-size: 2rem;
+}
