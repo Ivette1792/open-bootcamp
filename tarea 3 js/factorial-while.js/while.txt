@@ -1,0 +1,7 @@
+let numFactorial = 1
+Sea i = 10
+mientras que (I > 1){
+    numFactorial *=i;
+    Yo--;
+}
+consola. log(numFactorial);

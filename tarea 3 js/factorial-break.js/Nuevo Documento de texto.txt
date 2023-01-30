@@ -1,0 +1,8 @@
+let numFactorial = 1
+Sea i = 10
+while (true) {
+    numFactorial *= i
+    Yo--
+    if(i===1) ruptura;
+}
+consola. log(numFactorial);
