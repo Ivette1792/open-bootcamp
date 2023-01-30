@@ -1,0 +1,10 @@
+const nombre = "Ivette Fontaine";
+var edad = 30;
+var desarrollador = true
+const fechaNacimiento = nueva Fecha(1992,9,17)
+dejar libroFav = {
+    titulo:"El laberinto del fauno",
+    autor:"Guillermo Del Toro",
+    año : 2006,
+    URL : https://es.wikipedia.org/wiki/El_laberinto_del_fauno
+}
