@@ -1,0 +1,10 @@
+
+
+const altura_cm = 160
+const altura_m = 1,60
+const peso_kg = 61,2
+
+const altura_red = Matemáticas. ceil(altura_m)
+const peso_red = Matemáticas. piso(peso_kg)
+
+const sonIguales = Número. MAX_VALUE + 1 === Número. MAX_VALUE
