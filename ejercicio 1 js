@@ -1,0 +1,10 @@
+// Creación de un nuevo Set con los nombres de la familia
+let familia = new Set(["Papa", "Mama", "Hermano", "Hermana"]);
+
+// Añadiendo el nombre duplicado
+familia.add("Papa");
+
+// Añadiendo el nombre "Javascript"
+familia.add("Javascript");
+
+console.log(familia);
