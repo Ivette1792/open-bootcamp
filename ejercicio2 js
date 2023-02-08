@@ -1,0 +1,33 @@
+// objeto con tus datos personales
+const yo = {
+  nombre: "Tu nombre",
+  apellido: "Tu apellido",
+  edad: 25,
+  altura: 1.75,
+  eresDesarrollador: true
+};
+
+// variable que obtiene tu edad a partir del objeto anterior
+const miEdad = yo.edad;
+
+// lista que contiene el objeto con tus datos personales y dos nuevos objetos con los datos de tus dos mejores amigos
+const amigos = [
+  yo,
+  {
+    nombre: "Amigo 1",
+    apellido: "Apellido Amigo 1",
+    edad: 30,
+    altura: 1.80,
+    eresDesarrollador: false
+  },
+  {
+    nombre: "Amigo 2",
+    apellido: "Apellido Amigo 2",
+    edad: 28,
+    altura: 1.73,
+    eresDesarrollador: true
+  }
+];
+
+// nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
+const amigosOrdenadosPorEdad = amigos.sort((a, b) => b.edad - a.edad);
