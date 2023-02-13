@@ -1,0 +1,15 @@
+const today = new Date();
+const birthdate = new Date(1992, 9, 17);
+
+const isTodayLater = today > birthdate;
+
+const birthDay = birthdate.getDate();
+const birthMonth = birthdate.getMonth();
+const birthYear = birthdate.getFullYear();
+
+console.log('Fecha de hoy: ', today);
+console.log('Fecha de nacimiento: ', birthdate);
+console.log('¿Es hoy más tarde que la fecha de nacimiento?: ', isTodayLater);
+console.log('Día de nacimiento: ', birthDay);
+console.log('Mes de nacimiento: ', birthMonth);
+console.log('Año de nacimiento: ', birthYear);
