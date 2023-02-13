@@ -1,0 +1,7 @@
+const edad = prompt("¿Cuál es tu edad?");
+
+undefined
+console.log(edad);
+
+VM14:1 30
+undefined
