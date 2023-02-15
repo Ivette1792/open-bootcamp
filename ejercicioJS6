@@ -1,0 +1,19 @@
+// Función que siempre devuelve "true"
+function alwaysTrue() {
+  return true;
+}
+
+// Función asíncrona con setTimeout que muestra un mensaje por consola
+async function sayHello() {
+  await new Promise(resolve => setTimeout(resolve, 5000));
+  console.log("Hola soy una promesa");
+}
+
+// Función generadora de índices pares
+function* generateEvenIndexes() {
+  let index = 0;
+  while (true) {
+    yield index;
+    index += 2;
+  }
+}
