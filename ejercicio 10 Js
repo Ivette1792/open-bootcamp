@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Botón</title>
+  </head>
+  <body>
+    <button id="miBoton">Botón</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</html>
+
+
+
+js
+// Obtener el botón
+
+// Obtener el botón
+var miBoton = $("#miBoton");
+
+// Agregar un evento click al botón
+miBoton.on("click", function() {
+  alert("¡Click en el botón!");
+});
+
+var miBoton = document.getElementById("miBoton");
+
+// Agregar un evento click al botón
+miBoton.addEventListener("click", function() {
+  alert("¡Click en el botón!");
+});
